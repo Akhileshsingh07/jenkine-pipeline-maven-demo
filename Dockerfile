@@ -4,4 +4,4 @@ WORKDIR /myapp
 
 COPY /var/lib/jenkins/workspace/project-4/target/maven-pipeline-demo-1.0-SNAPSHOT.jar /myapp
 
-ENTRYPOINT ["java", "-jar", "your-app.jar"]
+ENTRYPOINT ["java", "-jar", "myapp"]
